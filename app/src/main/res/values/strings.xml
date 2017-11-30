@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="app_name">BLE Console</string>
+
+    <!-- Warnings-->
+    <string name="bluetooth_turned_off_warning">Bluetooth turned off, Please turn it on!</string>
+    <string name="invalid_command_warning">Invalid command format, Please check FAQ, press &quot;Gear&quot; button on top of the screen</string>
+    <string name="disconnection_warning">Bluetooth device disconnected</string>
+
+    <!--Find Ble Activity-->
+    <string name="connecting">Connecting</string>
+    <string name="discovery_peripheral">Discovery peripheral BLE devices</string>
+    <string name="discovery_started">Discovery started...</string>
+    <string name="default_no_description">No Description</string>
+
+    <!--Console Activity-->
+    <string name="write_service_uuid">Write Service UUID - </string>
+    <string name="read_service_uuid">Read Service UUID - </string>
+    <string name="write_characteristic_uuid">Write Characteristic UUID - </string>
+    <string name="read_characteristic_uuid">Read Characteristic UUID - </string>
+    <string name="set_read_characteristic">Set read characteristic</string>
+    <string name="set_write_characteristic">Set write characteristic</string>
+    <string name="read_characteristic">Read characteristic</string>
+    <string name="set">set</string>
+    <string name="send">Send</string>
+    <string name="type_command_hint">Type a command</string>
+    <string name="command">Command -</string>
+    <string name="characteristic">Characteristic -</string>
+
+    <string name="select_characteristic">Select Characteristic to set</string>
+    <string name="select_service">Select Service with characteristics</string>
+
+    <string name="characteristic_set_success">- was set successfully</string>
+    <string name="command_send_success">- was send successfully</string>
+    <string name="characteristic_read_success">- was read successfully</string>
+
+
+    <!--FAQ fragment dialog-->
+    <string name="faq_title">FAQ</string>
+
+    <string name="faq_text">
+        1.To read characteristic, you have to press SET Read Characteristic Button and Select Service than select specific Characteristic.
+        After characteristic selection you have to press &quot;Read characteristic&quot; button, you will get a response in byte code like - [0,1,55].
+        \n2.To write in characteristic, you have to press SET write Characteristic button, and Select Service than select specific Characteristic.\n
+        Fill bytes in decimal format (!Not Hexadecimal) each byte of command you have to divide with &lt;,&gt; Comma symbol like in example bellow, then press send.
+    </string>
+
+    <string name="about">
+        Thank you for using this APP!\nYours sincerely Oleksandr Grument\no.grument@gmail.com
+    </string>
+
+</resources>
