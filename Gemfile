@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
-# use local theme gem for testing
-gem "minimal-mistakes-jekyll"
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-remote-theme"
 
