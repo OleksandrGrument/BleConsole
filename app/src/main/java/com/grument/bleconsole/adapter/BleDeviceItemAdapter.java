@@ -57,6 +57,11 @@ public class BleDeviceItemAdapter extends RecyclerView.Adapter<BleDeviceItemAdap
 
 
     public void notifyAndShow(BluetoothDevice bluetoothDevice) {
+
+        for (BluetoothDevice existBluetoothDevice : bluetoothDevices) {
+            if (existBluetoothDevice.getAddress().equals(bluetoothDevice.getAddress())) break;
+        }
+
         bluetoothDevices.add(bluetoothDevice);
         notifyItemInserted(getItemCount());
         notifyDataSetChanged();

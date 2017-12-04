@@ -1,14 +1,6 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'oleksandrgrument'
-            keyPassword 'Pendulum2'
-            storeFile file('C:/Users/Oleksandr/Desktop/keystore.jks')
-            storePassword 'Pendulum2'
-        }
-    }
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.grument.bleconsole"
